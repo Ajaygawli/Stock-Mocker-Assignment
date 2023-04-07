@@ -12,5 +12,9 @@
 		"type": "git",
 		"url": "https://github.com/shiv/Virtual-Stock-Market"
 	},
-	"license": "MIT"
+	"license": "MIT",
+	"dependencies": {
+		"react-bootstrap": "^2.7.2",
+		"react-bootstrap-validation": "^0.1.11"
+	}
 }

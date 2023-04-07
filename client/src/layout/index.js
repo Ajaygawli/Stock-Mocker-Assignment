@@ -49,6 +49,7 @@ const AppLayout = ({isLoggedIn, isPageLoading, name, checkUser, logout}) =>{
             <Menu.Item key="portfolio">Portfolio<Link to="/"/></Menu.Item>
             <Menu.Item key="transactions">Transactions<Link to="/transactions" /></Menu.Item>
             <Menu.Item key="Explore">Explore <Link to="/explore" /></Menu.Item>
+            <Menu.Item key="News">News <Link to="/news" /></Menu.Item>
             {!isLoggedIn ? [
                 <Menu.Item style={styles.user} key="register">Register <Link to="/register" /></Menu.Item>,
                 <Menu.Item style={styles.user} key="login">Login <Link to="/login" /></Menu.Item>
